@@ -1,0 +1,31 @@
+.CartProduct{
+    display: flex;
+    margin: 25px 15px;
+}
+.CartProduct__image{
+   
+    height: 120px;
+    object-fit: contain;        
+}
+.CartProduct__info{
+    margin-left: 10px;
+    
+}
+.CartProduct__infoTitle{
+    margin-bottom: 5px;
+}
+.CartProduct__infoPrice{
+    margin-bottom: 5px;
+}
+.CartProduct__infoRating{
+    margin-bottom: 5px;
+    display: flex;
+}
+.CartProduct__infoButton{
+    max-width: 150px;
+    padding: 3px 10px;
+    margin: 0 auto;
+    background-color: #E7BB4E;
+    border: 0.5px solid #5a4101;
+    border-radius: 3px;
+}
